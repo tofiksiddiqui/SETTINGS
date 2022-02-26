@@ -1,1 +1,30 @@
+//Settings Sublime on Ubuntu
+//Theme Monokai
+
+(1) Color Highlight
+(2) FileIcons
+(3) Terminal
+(4) Emmet
+
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_face":"Cascadia Code",
+	"font_size": 11,
+	"highlight_line_number":true,
+	"font_options": ["no_italic"],
+	"highlight_line":true,
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
+	"caret_style":true,
+	"gtk_client_side_window_decorations": false,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"theme": "Adaptive.sublime-theme",
+	/*"caret_style": true,*/
+	"padding_top": 1,
+}
 
