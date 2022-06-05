@@ -110,36 +110,30 @@
       }
     ]
   },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 160,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorWidth": 3,
+  "terminal.integrated.cursorWidth": 4,
   "workbench.colorCustomizations": {
-    "[Cobalt2]": {
-      "editor.lineHighlightBackground": "#05445e",
-      "editor.lineHighlightBorder": "#05445e",
-      "tab.activeBorder": "#ffffff",
-      "tab.hoverBorder": "#0400f7",
-      "tab.inactiveForeground": "#ffffff",
-    },
     "[Default Dark+]": {
-      "editor.lineHighlightBackground": "#05445e",
-      "editor.lineHighlightBorder": "#05445e",
-      "tab.activeBorder": "#ffffff",
-      "tab.hoverBorder": "#0400f7",
-      "tab.inactiveForeground": "#ffffff",
       "editorCursor.background": "#000000",
-      "editorCursor.foreground": "#ffffff"
-    },
-    "[Monokai]": {
-      "editor.background": "#000000",
+      "editorCursor.foreground": "#ffffff",
       "tab.activeBorder": "#ffffff",
-      "tab.hoverBorder": "#0400f7",
+      "tab.hoverBorder": "#ffffff",
       "tab.inactiveForeground": "#ffffff",
-      "editorCursor.background": "#000000",
-      "editorCursor.foreground": "#3CF000",
       "terminalCursor.background": "#000000",
-      "terminalCursor.foreground": "#3CF000"
-    }
+      "terminalCursor.foreground": "#ff9900",
+      "editorGutter.background": "#000",
+      "editor.background": "#000",
+      "activityBar.background": "#000",
+      "tab.inactiveBackground": "#000",
+      "titleBar.activeBackground": "#000",
+      "titleBar.inactiveBackground": "#000",
+      "titleBar.inactiveForeground": "#ffffff",
+      "menu.background": "#000",
+      "statusBar.background": "#000"
+    },
   },
   "files.exclude": {
     "**/.classpath": true,
@@ -154,10 +148,45 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "explorer.confirmDelete": false,
-  "workbench.iconTheme": "file-icons-mac",
+  "editor.renderLineHighlight": "all",
   "editor.fontLigatures": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.fontFamily": "Cascadia Code",
-  "window.menuBarVisibility": "toggle",
+  "php.validate.executablePath": "/usr/bin/php8.0",
   "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.padding.bottom": 4,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.editorAssociations": {
+    "*.sqlite3": "default"
+  },
+ 
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "editor.fontFamily": "Jetbrains Mono",
+  "auto-close-tag.activationOnLanguage": [
+
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
 }
