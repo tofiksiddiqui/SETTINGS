@@ -1,1 +1,1 @@
-About Sublime Color Scheme Setting
+About Sublime Color Scheme Settings
